@@ -1,0 +1,8 @@
+ก่อน run ควร clone project -> https://github.com/filiphric/trelloapp-vue-vite-ts
+
+
+npx playwright test tests/trello.spec.ts --project chromium --workers 1 --headed    
+npx playwright test tests/trello.spec.ts --project chromium --workers 1 --ui
+npx playwright test tests/trello.spec.ts --project chromium
+npx playwright test tests/trello.spec.ts
+npx playwright test 
